@@ -37,6 +37,10 @@ We burn the `optiboot_flash` bootloader with an easy process using:
 
 ![Elegoo Mega 2560 R3](images/elegoo-mega-2560-r3.jpg)
 
+* <a href="https://www.amazon.fr/TOP-CHARGEUR-Adaptateur-Alimentation-Microcontr%C3%B4leur/dp/B07HKD9215" target="_blank">9v adapter for Arduino</a>
+
+![](images/adapter-9v.jpg)
+
 * <a href="https://www.pololu.com/product/3172" target="_blank">Pololu USB AVR Programmer v2.1</a> or equivalent
 
 ![Pololu USB AVR Programmer](images/Pololu-USB-AVR-Programmer%20v2.1.jpg)
@@ -50,6 +54,27 @@ We burn the `optiboot_flash` bootloader with an easy process using:
 In [./extras](./extras) folder you will find software that we used the time I wrote this how-to:
 * Pololu USB AVR Programmer Drivers 2.1.1.0 for Windows
 * MegaCore source code in `MegaCore-master.zip` (get the <a href="https://github.com/MCUdude/MegaCore/archive/master.zip" target="_blank">latest</a>)
+
+
+## Connect Mega and AVR programmer with ISP cable
+The correct connection:
+![](images/pololu-mega-icsp.jpg)
+
+
+## Test the AVR programmer
+1. Connect you PC to the AVR programmer with an USB cable and power the Mega 2560 with a 9v adapter:
+
+![](images/pololu-mega-wiring.png)
+
+2. Open Arduino IDE and load `Examples/01.Basics/Blink` sketch
+
+3. Upload sketch to Mega via AVR programmer:
+
+    * Select `Tools/Programmer`: **"Atmel STK500 development board"**
+    * Upload with `Sketch/Upload Using Programmer   ctrl-Shift-U`
+
+4. Check that the Mega on-board LED is blinking: we are ready to continue
+
 
 ## Resources
 
