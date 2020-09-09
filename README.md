@@ -77,7 +77,7 @@ The correct connection:
 4. **Check that the Mega on-board LED is blinking**: we are ready to continue
 
 
-## Install MEgaCore boards manager
+## Install MegaCore boards manager
 
 ...........
 
