@@ -112,12 +112,14 @@ We follow <a href="https://github.com/Optiboot/optiboot/wiki/InstallingOnChips#i
 
 
 2. Connect a device programmer to the ISP connector of the target board, we've done that when we <a href="#test-the-avr-programmer" target="_blank">tested the AVR programmer</a>:
-
-![](images/pololu-mega-wiring.png)
+  ![](images/pololu-mega-wiring.png)
 
 --> see pololu-mega-wiring.png
 
-3. Running the Arduino IDE, select the tools/board of the target chip, and the tools/programmer of your programmer, and if necessary the tools/serial port of the programmer.
+3. Running the Arduino IDE, select the tools/board of the target chip, and the tools/programmer of your programmer, and if necessary the tools/serial port of the programmer:
+
+    * we need to select the `ATmega2560` as a **Megacore** board
+      ![](images/ide-burn-1.png)
 
 --> see ide-burn-1.png and ide-burn-2.png
 
