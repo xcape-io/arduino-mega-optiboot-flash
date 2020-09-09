@@ -22,8 +22,8 @@ We burn the optiboot_flash bootloader with an easy process using:
 * <a href="https://github.com/MCUdude/MegaCore" target="_blank">MegaCore: an Arduino core for ATmega2560 running Optiboot flash</a>
 
 In [./extras](./extras) folder youy will find software that We used the time I wrote this how-to:
-* Pololu USB AVR Programmer Drivers for Windows
-* MegaCore source code in `MegaCore-master.zip`
+* Pololu USB AVR Programmer Drivers 2.1.1.0 for Windows
+* MegaCore source code in `MegaCore-master.zip` (get the <a href="https://github.com/MCUdude/MegaCore/archive/master.zip" target="_blank">latest</a>)
 
 ## Resources
 
