@@ -53,9 +53,13 @@ In [./extras](./extras) folder you will find software that we used the time I wr
 
 ## Resources
 
-* ........
-* ........
-
+* [./extras](./extras) 
+* <a href="https://github.com/MCUdude/optiboot_flash" target="_blank">MCUdude / optiboot_flash</a>
+* <a href="https://github.com/MCUdude/MegaCore" target="_blank">MCUdude / MegaCore</a>
+* <a href="https://github.com/Optiboot/optiboot/wiki" target="_blank">optiboot wiki</a>
+* <a href="https://www.pololu.com/product/3172" target="_blank">Pololu USB AVR Programmer v2.1</a>
+* <a href="https://www.pololu.com/resources/software" target="_blank">Pololu software</a>
+* <a href="https://www.elegoo.com/product/elegoo-mega-2560-r3-board-blue-atmega2560-atmega16u2-usb-cable/" target="_blank">ELEGOO MEGA 2560 R3 Board Blue</a>
 
 ## Author
 
