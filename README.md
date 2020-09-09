@@ -123,7 +123,7 @@ We follow <a href="https://github.com/Optiboot/optiboot/wiki/InstallingOnChips#i
       
       ![](images/ide-burn-2.png)
 
-4. Select Tools/Burn Bootloader
+4. Proceed : select `Tools/Burn Bootloader`
 
     ```bash
     avrdude: Version 6.3-20190619
@@ -244,9 +244,9 @@ We follow <a href="https://github.com/Optiboot/optiboot/wiki/InstallingOnChips#i
     avrdude done.  Thank you.
     ```
 
---> see ok_after_uploading_bootloader.mp4 video (just after uploading: double fast flash if upload was OK)
+If it's OK, just after burning the `optiboot_flash` bootloader, the on-board LED is blinking with a double fast flash, see the video on YouTube:
 
-
+[![Click for the video](images/ok_after_uploading_bootloader.png)](https://www.youtube.com/watch?v=F4e5JNqihJY)
 
 ## Test read/write flash memory at run-time
 
