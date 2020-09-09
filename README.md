@@ -122,6 +122,7 @@ We follow <a href="https://github.com/Optiboot/optiboot/wiki/InstallingOnChips#i
       ![](images/ide-burn-1.png)
 
     * `ATmega2560` board default settings works well
+      
       ![](images/ide-burn-2.png)
 
 4.Select Tools/Burn Bootloader
