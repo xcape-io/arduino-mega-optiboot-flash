@@ -121,7 +121,8 @@ We follow <a href="https://github.com/Optiboot/optiboot/wiki/InstallingOnChips#i
     * we need to select the `ATmega2560` as a **Megacore** board
       ![](images/ide-burn-1.png)
 
---> see ide-burn-1.png and ide-burn-2.png
+    * `ATmega2560` board default settings worksd well
+      ![](images/ide-burn-2.png)
 
 4.Select Tools/Burn Bootloader
 
