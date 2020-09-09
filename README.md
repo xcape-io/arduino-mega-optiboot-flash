@@ -1,11 +1,29 @@
 # Arduino Mega 2560 with Optiboot Flash
-*Write permanent data in flash memory at run-time on Arduinoi Mega 2560.*
+*Write permanent data in flash memory at run-time on Arduino Mega 2560.*
 
 
 ## What is Optiboot Flash ?
 
 ...........
 
+
+## Easy process to burn bootloader
+We burn the optiboot_flash bootloader with an easy process using:
+* Arduino IDE
+* USB AVR programmer which emulates an STK500 on a virtual serial port
+* An Arduino core for ATmega64, ATmega128, ATmega640, ATmega1280, ATmega1281, ATmega2560, ATmega2561, AT90CAN32, AT90CAN64 and AT90CAN128, all running Optiboot flash. 
+
+
+## Required hardware and software
+* <a href="https://store.arduino.cc/arduino-mega-2560-rev3" target="_blank">Arduino Mega 2560 Rev3</a> or <a href="https://www.amazon.fr/gp/product/B06XKZY117" target="_blank">Elegoo Mega 2560 R3</a>
+* <a href="https://www.pololu.com/product/3172" target="_blank">Pololu USB AVR Programmer v2.1</a> or equivalent
+* <a href="https://www.pololu.com/resources/software" target="_blank">Pololu USB AVR Programmer v2 Software and Drivers for Windows (.msi)</a> 
+* <a href="https://www.arduino.cc/en/main/software" target="_blank">Arduino IDE for Windows</a> (release 1.8.13 at this time)
+* <a href="https://github.com/MCUdude/MegaCore" target="_blank">MegaCore: an Arduino core for ATmega2560 running Optiboot flash</a>
+
+In [./extras](./extras) folder youy will find software that We used the time I wrote this how-to:
+* Pololu USB AVR Programmer Drivers for Windows
+* MegaCore source code in `MegaCore-master.zip`
 
 ## Resources
 
