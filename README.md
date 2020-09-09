@@ -250,8 +250,15 @@ If it's OK, just after burning the `optiboot_flash` bootloader, the on-board LED
 
 ## Test read/write flash memory at run-time
 
-.........
+We use the SerialReadWrite sketch provided by <a href="https://github.com/MCUdude/MegaCore/tree/master/avr/libraries/Optiboot_flasher" target="_blank">MegaCore / Optiboot_flasher library</a> which is installed, so:
 
+* Open Arduino IDE and load `Examples` / `Examples for ATmega2560` / `Optiboot flash read/write` / `SerialReadWrite` sketch
+
+* Open `Tools/Serial Monitor` and upload the sketch
+
+  ![](images/test-1.png)
+
+* Play with this sketch to write data in flash, power off/on the board and read back from flash to verifiy it's working.
 
 ## Resources
 
