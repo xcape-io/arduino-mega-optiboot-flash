@@ -29,7 +29,7 @@ There are some major repositories of "generic" versions of cores for various tar
 We burn the `optiboot_flash` bootloader with an easy process using:
 * Arduino IDE
 * USB AVR programmer which emulates an STK500 on a virtual serial port
-* MegaCore: an Arduino core for ATmega64, ATmega128, ATmega640, ATmega1280, ATmega1281, ATmega2560, ATmega2561, AT90CAN32, AT90CAN64 and AT90CAN128, all running Optiboot flash. 
+* MegaCore, an Arduino core for ATmega64, ATmega128, ATmega640, ATmega1280, ATmega1281, ATmega2560, ATmega2561, AT90CAN32, AT90CAN64 and AT90CAN128, all running Optiboot flash. 
 
 
 ## Required hardware and software
@@ -47,7 +47,7 @@ We burn the `optiboot_flash` bootloader with an easy process using:
 
 * <a href="https://github.com/MCUdude/MegaCore" target="_blank">MegaCore: an Arduino core for ATmega2560 running Optiboot flash</a>
 
-In [./extras](./extras) folder youy will find software that We used the time I wrote this how-to:
+In [./extras](./extras) folder you will find software that we used the time I wrote this how-to:
 * Pololu USB AVR Programmer Drivers 2.1.1.0 for Windows
 * MegaCore source code in `MegaCore-master.zip` (get the <a href="https://github.com/MCUdude/MegaCore/archive/master.zip" target="_blank">latest</a>)
 
