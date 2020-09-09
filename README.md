@@ -111,6 +111,7 @@ We follow <a href="https://github.com/Optiboot/optiboot/wiki/InstallingOnChips#i
       ![](images/bootloaders-folder.png)
 
 2. Connect a device programmer to the ISP connector of the target board, we've done that when we <a href="#test-the-avr-programmer" target="_blank">tested the AVR programmer</a>:
+
   ![](images/pololu-mega-wiring.png)
 
 3. Running the Arduino IDE, select the `Tools/Board` of the target chip, and the `Tools/Programmer` of your programmer (`Atmel STK500 development board`), and if necessary the `Tools/Serial` port of the programmer:
