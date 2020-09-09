@@ -272,7 +272,7 @@ We use the SerialReadWrite sketch provided by <a href="https://github.com/MCUdud
 
 ## Author
 
-**Jean-Michel _(Jim)_ FAURE** (July 9th, 2020)
+**Jean-Michel _(Jim)_ FAURE** (September 9th, 2020)
 * company: FAURE SYSTEMS®
 * mail: *dev at faure dot systems*
 * github: <a href="https://github.com/fauresystems" target="_blank">fauresystems</a>
