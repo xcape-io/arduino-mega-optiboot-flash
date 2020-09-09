@@ -102,19 +102,18 @@ We follow <a href="https://github.com/MCUdude/MegaCore#boards-manager-installati
 ## Burn optiboot_flash
 We follow <a href="https://github.com/Optiboot/optiboot/wiki/InstallingOnChips#installing-using-the-arduino-ide" target="_blank">instructions given by MCUdude in there</a>.
 
- 
+1. Install the files as directed, usually (for Arduino 1.0+) in a subdirectory of your personal sketch's `../hardware/` directory:
 
-If you are using a chip that is "supported" by the Arduino team, or by some other person who has provided files, you can install optiboot (or for that matter, any other bootloader) directly from the Arduino IDE. This usually has the following steps:
+    * Download MegaCore source code: MegaCore-master.zip from https://github.com/MCUdude/MegaCore
 
-1. Install the files as directed, usually (for Arduino 1.0+) in a subdirectory of your personal sketch's ../hardware/ directory. Note that the formats of various files (notably boards.txt) have changed with different versions of the IDE, and you'll need to make sure that the files you have been provided match the version of the IDE you are using.
+    * Extract the `optiboot_flash` folder from `MegaCore-master.zip` in: `C:\Program Files (x86)\Arduino\hardware\arduino\avr\bootloaders`
 
---> Download MegaCore source code: MegaCore-master.zip from https://github.com/MCUdude/MegaCore
+      ![](images/bootloaders-folder.png)
 
---> Extract the optiboot_flash folder in: C:\Program Files (x86)\Arduino\hardware\arduino\avr\bootloaders
 
---> see bootloaders-folder.png
+2. Connect a device programmer to the ISP connector of the target board, we've done that when we <a href="#test-the-avr-programmer" target="_blank">tested the AVR programmer</a>:
 
-2. Connect a device programmer to the ISP connector of the target board, or via wires to an avr chip with appropriate support hardware in a protoboard, as per the instructions associated with that programmer. It will need to be a programmer of a type supported by the Arduino IDE in the tools/programmer Menu. You can use a 2nd Arduino with the ArduinoISP sketch as a programmer. The details are beyond the scope of this document, but are often discussed in the Arduino forums.
+![](images/pololu-mega-wiring.png)
 
 --> see pololu-mega-wiring.png
 
