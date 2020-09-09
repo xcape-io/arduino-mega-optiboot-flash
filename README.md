@@ -16,11 +16,17 @@ We burn the optiboot_flash bootloader with an easy process using:
 
 ## Required hardware and software
 * <a href="https://store.arduino.cc/arduino-mega-2560-rev3" target="_blank">Arduino Mega 2560 Rev3</a> or <a href="https://www.amazon.fr/gp/product/B06XKZY117" target="_blank">Elegoo Mega 2560 R3</a>
+
 ![Elegoo Mega 2560 R3](images/elegoo-mega-2560-r3.jpg)
+
 * <a href="https://www.pololu.com/product/3172" target="_blank">Pololu USB AVR Programmer v2.1</a> or equivalent
+
 ![Pololu USB AVR Programmer](images/Pololu-USB-AVR-Programmer%20v2.1.jpg)
+
 * <a href="https://www.pololu.com/resources/software" target="_blank">Pololu USB AVR Programmer v2 Software and Drivers for Windows (.msi)</a> 
+
 * <a href="https://www.arduino.cc/en/main/software" target="_blank">Arduino IDE for Windows</a> (release 1.8.13 at this time)
+
 * <a href="https://github.com/MCUdude/MegaCore" target="_blank">MegaCore: an Arduino core for ATmega2560 running Optiboot flash</a>
 
 In [./extras](./extras) folder youy will find software that We used the time I wrote this how-to:
