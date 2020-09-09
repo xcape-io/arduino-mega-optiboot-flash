@@ -72,8 +72,24 @@ The correct connection:
 
     * Select `Tools/Programmer`: **"Atmel STK500 development board"**
     * Upload with `Sketch/Upload Using Programmer   ctrl-Shift-U`
+      ![](images/upload-blink-with-isp.png)
 
-4. Check that the Mega on-board LED is blinking: we are ready to continue
+4. **Check that the Mega on-board LED is blinking**: we are ready to continue
+
+
+## Install MEgaCore boards manager
+
+...........
+
+
+## Burn optiboot_flash
+
+..............
+
+
+## Test read/write flash memory at run-time
+
+.........
 
 
 ## Resources
