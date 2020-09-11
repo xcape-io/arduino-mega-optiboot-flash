@@ -57,7 +57,7 @@ In [./extras](./extras) folder you will find software that we used the time I wr
 
 
 ## Connect Mega and AVR programmer with ISP cable
-First, install AVR programmer drivers: <a href="extras%2Fpololu-usb-avr-programmer-v2-1.1.0-win.msi" target="_blank">Pololu USB AVR Programmer v2 Software and Drivers for Windows</a>
+First, install AVR programmer drivers: <a href="https://github.com/xcape-io/arduino-mega-optiboot-flash/raw/master/extras/pololu-usb-avr-programmer-v2-1.1.0-win.msi" target="_blank">Pololu USB AVR Programmer v2 Software and Drivers for Windows</a>
 
 The correct connection:
 ![](images/pololu-mega-icsp.jpg)
